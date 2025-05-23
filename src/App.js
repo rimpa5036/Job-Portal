@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import LogoImg from "./images/logo.png"
@@ -74,7 +74,8 @@ function App() {
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/sign-in" element={<SignIn />} />
             </Routes>
-       
+              
+          <Home></Home>
 
           <Footer/>
           
