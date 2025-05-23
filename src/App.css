@@ -1,0 +1,87 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.nav-wrapper{
+  padding: 27px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-content{
+  padding: 0 80px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+  text-transform: uppercase;
+}
+a:hover{
+  color: #303af7;
+}
+.navmenu-wrap{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.upload-btn{
+  display: flex;
+  gap: 15px;
+}
+.upload-btn a{
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #3f51b5;
+  border-radius: 6px;
+  text-transform: none;
+  line-height: 2;
+  transition: color 0.3s ease;
+  position: relative;
+  overflow: hidden; 
+  display: inline-block;
+}
+.upload-btn a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #0a1a76;
+  border-radius: 6px;
+  transition: width 0.4s ease;
+  z-index: 0;
+}
+.upload-btn a:hover::before{
+  width: 100%;
+}
+.upload-btn a:hover{
+  color: #fff;
+}
+.upload-btn a span  {
+  position: relative;
+  z-index: 1;
+}
+.upload-btn svg{
+  position: relative;
+  top: 5px;
+  padding-right: 5px;
+}
+.titleName{
+  font-size: 30px;
+  margin: .2em 0;
+  line-height: 1.5;
+  color: #202020;
+  font-weight: 600;
+  text-align: center;
+}
+.subTitleName{
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+}
+
+
+

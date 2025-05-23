@@ -1,0 +1,245 @@
+.resume-Bg{
+    background-image: url(../images/resumeBg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.resume-Bg-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.resume-form{
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.resume-form-div{
+    margin-bottom: 35px;
+}
+.resume-flex input, .resume-flex textarea {
+    border: 1px solid #b4b4b4;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    outline: none;
+    color: #495057;
+    margin-right: 18px;
+    margin-top: 10px;
+    width: 100%;
+    resize: none;
+}
+.resume-flex input::placeholder{
+    color: #aaaaaa;
+    letter-spacing: 2;
+    font-family: 'Poppins', sans-serif;
+}
+.resume-flex textarea{
+    height: 140px;
+    padding-top: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.resume-flex{
+    display: flex;
+    align-items: center;
+}
+.resume-form-div label{
+    font-size: 14px;
+    color: #495057;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.resume-flex input:hover, .resume-flex textarea:hover{
+    box-shadow: 0px 2px 5px 0px #303af74d;
+}
+.resume-uploadFile{
+    border: 1px dashed #b4b4b4;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    justify-content: center;
+    margin: 0 15px 10px 0;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+    width: 52%;
+    margin-top: 10px;
+}
+.resume-uploadFile img{
+    width: 35px;
+    margin: 0 auto;
+}
+.resume-upload-text{
+    font-size: 13px;
+    color: #495057;
+    font-weight: 500;
+}
+.resumeInput-text{
+    position: absolute;
+    width: 35% !important;
+    opacity: 0;
+    cursor: pointer;
+    font-size: 0;
+}
+.resume-file-names{
+    font-size: 14px;
+    color: #3f51b5;
+}
+.resume-submit{
+    padding: 10px 35px;
+    color: #fff;
+    background-color: #3f51b5;
+    border-radius: 6px;
+    text-transform: none;
+    line-height: 2;
+    transition: color 0.3s ease;
+    position: relative;
+    overflow: hidden; 
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.resume-submit::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #0a1a76;
+    border-radius: 6px;
+    transition: width 0.4s ease;
+    z-index: 0;
+}
+.resume-submit:hover::before{
+    width: 100%;
+}
+.resume-submit:hover{
+    color: #fff;
+}
+.resume-submit span  {
+    position: relative;
+    z-index: 1;
+}
+.candidate-table h2{
+    font-size: 30px;
+    line-height: 1.5;
+    color: #202020;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.candidate-bg{
+    height: 200px;
+    background-color: #8b91dd;
+    border-radius: 6px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.candidate-wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    top: 120px;
+    align-items: center;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+    display: flex;
+    margin-bottom: 80px;
+    padding: 33px;
+    text-align: left;
+    position: relative;
+    z-index: 5;
+}
+.candidate-wrapper-img{
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+    margin-right: 30px;
+    overflow: hidden;
+    width: 120px;
+}
+.candidate-flex{
+    display: flex;
+    gap: 8px;
+}
+.candidate-fullname{
+    font-size: 22px;
+    font-weight: 500;
+    color: #202020;
+}
+.candidate-flex-wrap{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.candidate-flex img{
+    width: 20px;
+}
+.candidate-mail{
+    color: #959595;
+    font-size: 14px;
+}
+.candidate-flex-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    margin-bottom: 80px;
+    padding-top: 33px;
+    text-align: left;
+    gap: 50px;
+}
+.candidate-overview{
+    font-size: 20px;
+    color: #202020;
+    margin-bottom: 20px;
+}
+.candidate-flex-loc{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3f51b5;
+    border-radius: 6px;
+    text-transform: none;
+    line-height: 2;
+    transition: color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.candidate-box{
+    background-color: #f6f6f6;
+    border: 1px solid #e3e3e3;
+    padding: 30px;
+}
+.candidate-box-flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.candidate-box-flex img{
+    width: 30px;
+}
+.candidate-title{
+    color: #202020;
+    font-size: 17px;
+}
+.flex-row{
+    flex-direction: row;
+}

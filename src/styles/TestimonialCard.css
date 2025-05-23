@@ -1,0 +1,33 @@
+.testimonial-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.testimonial-container img{
+    border-radius: 50%;
+}
+.imgComa{
+    position: absolute;
+    top: 85%;
+    right: 20px;
+}
+.testimonial-clientname{
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.testimonial-designation{
+    font-size: 15px;
+    color: #888;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+.testimonial-review{
+    font-size: 17px;
+    color: #333;
+    font-style: italic;
+}

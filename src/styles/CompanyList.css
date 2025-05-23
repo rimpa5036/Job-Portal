@@ -1,0 +1,156 @@
+.browse-Bg{
+    background-image: url(../images/jobBg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.details-Bg{
+    background-image: url(../images/ApplyBg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.browse-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.browse-subTitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin: .2em 0;
+    line-height: 1.5;
+    color: #202020;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.browse-formWrap {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.browse-box{
+    margin-bottom: 40px;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px !important;
+    box-shadow: 0px 2px 5px 0px rgb(32 32 32 / 30%);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+}
+
+.browse-jobBtn button{
+    padding: 6px 30px;
+    color: #fff;
+    background-color: #3f51b5;
+    border-radius: 6px;
+    text-transform: none;
+    line-height: 2;
+    transition: color 0.3s ease;
+    position: relative;
+    overflow: hidden; 
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.browse-jobBtn button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #0a1a76;
+    border-radius: 6px;
+    transition: width 0.4s ease;
+    z-index: 0;
+}
+.browse-jobBtn button:hover::before{
+    width: 100%;
+}
+.browse-jobBtn button:hover{
+    color: #fff;
+}
+.browse-jobBtn button span  {
+    position: relative;
+    z-index: 1;
+}
+.browse-industry{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #202020;
+    padding-bottom: 10px;
+}
+.browse-flex{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.browse-details{
+    font-size: 14px;
+    color: #98A5BC;
+}
+.browse-flex img{
+    width: 18px;
+}
+.browse-box-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.deatils-grid{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 60px;
+    align-items: flex-start;
+}
+.browse-overview-img{
+    width: 32px;
+}
+.details-title{
+    color: #202020;
+    font-size: 15px;
+    font-weight: 500;
+}
+.deatils-title-name{
+    color: #98A5BC;
+    font-size: 14px;
+}
+.browse-box-1{
+    margin-bottom: 40px;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px !important;
+    box-shadow: 0px 2px 5px 0px rgb(32 32 32 / 30%);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.details-description{
+    color: #98A5BC;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
