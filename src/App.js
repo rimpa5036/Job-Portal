@@ -75,7 +75,7 @@ function App() {
               <Route path="/sign-in" element={<SignIn />} />
             </Routes>
               
-          <Home></Home>
+         
 
           <Footer/>
           
